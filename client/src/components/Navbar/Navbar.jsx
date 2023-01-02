@@ -25,7 +25,7 @@ const Navbar = () => {
         ].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
-            <Link to={`${item}`} smooth={true} duration={1000}>
+            <Link to={`${item}`} smooth={true} duration={500}>
               {item}
             </Link>
           </li>
@@ -54,10 +54,8 @@ const Navbar = () => {
                 <li key={item}>
                   <Link
                     onClick={() => setToggle(false)}
-                    to={`/${item}`}
-                    spy={true}
+                    to={`${item}`}
                     smooth={true}
-                    offset={50}
                     duration={500}
                   >
                     {item}
