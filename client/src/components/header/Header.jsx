@@ -6,7 +6,7 @@ import logo from "../../assets/logo1.png";
 
 function Header() {
   return (
-    <div className="header__background-image">
+    <div className="header__background-image" id="home">
       <div className="header__center">
         <motion.div
           className="display-flex"
