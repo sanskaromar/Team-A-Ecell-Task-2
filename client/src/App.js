@@ -9,7 +9,7 @@ import Startups from "./components/Startups/Startups";
 
 function App() {
   return (
-    <div className="content">
+    <div className="w-screen">
       <Navbar />
       <ScrollToTop />
       <Header />
