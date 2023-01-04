@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="w-screen">
       <Navbar />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Header />
-      <About />
-      <Renaissance />
-      <Startups />
-      <GetInTouch />
+      {/* <About /> */}
+      {/* <Renaissance /> */}
+      {/* <Startups /> */}
+      {/* <GetInTouch /> */}
     </div>
   );
 }

@@ -83,6 +83,7 @@
 }
 
 .app__navbar-menu {
+  // flex : 1;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -92,6 +93,8 @@
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
+  // backdrop-filter: blur(4px);
+  // -webkit-backdrop-filter: blur(4px);
 
   svg {
     width: 70%;
