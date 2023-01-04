@@ -3,14 +3,14 @@ import logo2 from './loco.jpg';
 import logo3 from './drivezy.png';
 import logo4 from './EveryCrave.jpg';
 import logo5 from './kratikal.png';
-import logo6 from './symb.jpg';
+import logo6 from './symb.png';
 import logo7 from './trelos.jpeg';
 import logo8 from './unacademy.png';
 import logo9 from './pvr.jpeg';
 import { motion } from "framer-motion";
 const Startups = () => {
     return (
-      <div className=" xl:py-20 sm:py-10" id="startups">
+      <div className=" bg-gray-700 xl:py-20 sm:py-10" id="startups">
         <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 sm:mx-10 sm:flex sm:flex-col sm:items-center">
           <div className="text-6xl font-bold xl:w-2/5 sm:flex sm:flex-col sm:items-center xl:pb-20 sm:pb-10">
             <div className="bg-gray-400 h-20 w-1 xl:mb-4 sm:mb-8"></div>
