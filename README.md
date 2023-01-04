@@ -2,7 +2,7 @@
 
 Hello... This is the entrepreneurship cell of MNNIT Allahabad.
 
-## Web Team @E-cell - Task 2 -
+## Web Team @E-cell - Task 2
 
 Building the E-Cell website
 
@@ -23,3 +23,4 @@ Building the E-Cell website
 
 ## Our Figma design file?
 
+Link - https://www.figma.com/file/Ddtfax1gqJfwsAxm3hbYVc/E-Cell-MNNIT?node-id=0%3A1&t=45ZiSRfKYTQZNLsT-1
