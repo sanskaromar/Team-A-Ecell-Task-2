@@ -23,4 +23,8 @@ Building the E-Cell website
 
 ## Our Figma design file?
 
-Link - https://www.figma.com/file/Ddtfax1gqJfwsAxm3hbYVc/E-Cell-MNNIT?node-id=0%3A1&t=45ZiSRfKYTQZNLsT-1
+Link- https://www.figma.com/file/Ddtfax1gqJfwsAxm3hbYVc/E-Cell-MNNIT?node-id=0%3A1&t=45ZiSRfKYTQZNLsT-1
+
+## Our Netlify app?
+
+Link- https://ecellmnnita.netlify.app/
