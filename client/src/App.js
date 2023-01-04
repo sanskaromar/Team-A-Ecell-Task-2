@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="w-screen">
       <Navbar />
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Header />
       <Events />
       <About />
-      {/* <Renaissance /> */}
-      {/* <Startups />
-      <GetInTouch /> */}
+      <Renaissance />
+      <Startups />
+      <GetInTouch />
     </div>
   );
 }
