@@ -6,6 +6,7 @@ import "./App.css";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Renaissance from "./components/Renaissance/Renaissance";
 import Startups from "./components/Startups/Startups";
+import Appreciation from "./components/Appreciation/Appreciation";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Renaissance />
       <Startups />
+      <Appreciation />
       <GetInTouch />
     </div>
   );
