@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div className="cursor"></div>
+    {/* <div className="cursor"></div> */}
   </React.StrictMode>
 );
 

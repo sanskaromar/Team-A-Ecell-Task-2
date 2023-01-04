@@ -6,6 +6,7 @@ import "./App.css";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Renaissance from "./components/Renaissance/Renaissance";
 import Startups from "./components/Startups/Startups";
+import Events from "./components/events/Events";
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       <Navbar />
       {/* <ScrollToTop /> */}
       <Header />
-      {/* <About /> */}
+      <Events />
+      <About />
       {/* <Renaissance /> */}
-      {/* <Startups /> */}
-      {/* <GetInTouch /> */}
+      {/* <Startups />
+      <GetInTouch /> */}
     </div>
   );
 }

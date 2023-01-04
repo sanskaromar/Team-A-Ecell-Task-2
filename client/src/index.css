@@ -24,3 +24,7 @@
   scroll-behavior: smooth;
   font-family: var(--font-family);
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}

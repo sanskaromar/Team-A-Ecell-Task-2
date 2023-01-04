@@ -12,14 +12,14 @@
   -webkit-backdrop-filter: blur(4px);
   // border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
-  // z-index: 2;
+  z-index: 2;
 }
 
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
+  
   img {
     width: 15%;
     height: 15%;
@@ -96,6 +96,7 @@
   // backdrop-filter: blur(4px);
   // -webkit-backdrop-filter: blur(4px);
 
+
   svg {
     width: 70%;
     height: 70%;
@@ -113,12 +114,13 @@
 
     width: 80%;
     height: 100vh;
-
+    
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
+    
+    
     background-color: var(--black-color);
     opacity: 0.9;
     // background-size: cover;
