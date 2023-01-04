@@ -9,3 +9,7 @@ body {
 .content {
   height: 5000px;
 }
+
+#carousel_container {
+  height: 400px;
+}
