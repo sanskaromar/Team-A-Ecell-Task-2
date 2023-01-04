@@ -16,7 +16,6 @@ Building the E-Cell website
 
 ## How to run this file locally on your system?
 
-- Fork and clone the repo in your system.
 - run "npm config set legacy-peer-deps true" in the project folder terminal.
 - run "npm install" in the project folder terminal to install all dependencies.
 - run "npm-start" to start the react app.
