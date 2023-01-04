@@ -7,5 +7,9 @@ body {
 }
 
 .content {
-  height: 5000px;
+  height: 3000px;
+}
+
+#carousel_container {
+  height: 400px;
 }
