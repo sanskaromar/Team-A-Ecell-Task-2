@@ -15,8 +15,8 @@ function App() {
       <ScrollToTop />
       <Header />
       <About />
-      <Renaissance />
       <Startups />
+      <Renaissance />
       <Appreciation />
       <GetInTouch />
     </div>
