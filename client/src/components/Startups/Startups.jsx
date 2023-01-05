@@ -1,11 +1,11 @@
-import logo1 from "./Baabtra.png";
-import logo2 from "./Loco.jpg";
-import logo3 from "./Drivezy.png";
+import logo1 from "./baabtra.png";
+import logo2 from "./loco.jpg";
+import logo3 from "./drivezy.png";
 import logo4 from "./EveryCrave.jpg";
-import logo5 from "./Kratikal.png";
+import logo5 from "./kratikal.png";
 import logo6 from "./SymbTechnologies.png";
 import logo7 from "./Trelos.png";
-import logo8 from "./Unacademy.png";
+import logo8 from "./unacademy.png";
 import logo9 from "./PVR.jpg";
 import { motion } from "framer-motion";
 const Startups = () => {
