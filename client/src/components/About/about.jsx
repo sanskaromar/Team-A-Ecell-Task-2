@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 const About = () => {
   return (
-    <div className="w-screen xl:py-20 sm:py-10 py-5 bg-yellow-500" id="about">
+    <motion.div className="w-screen xl:py-20 sm:py-10 py-5 bg-yellow-500" id="about"
+      whileInView={{ y: [50, 0], opacity: [0, 1] }}
+      transition={{ delay: 1, duration: 0.3, ease: "easeOut" }}
+      viewport={{ once: true }}
+    >
       <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 mx-10 flex flex-col items-center">
         <div className="text-5xl sm:text-6xl font-bold xl:w-2/5 flex flex-col items-center xl:pb-20 pb-10">
           <div className="bg-gray-400 h-20 w-1 xl:mb-4 mb-8"></div>
@@ -25,7 +31,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
