@@ -1,13 +1,13 @@
 const About = () => {
   return (
     <div className="w-screen xl:py-20 sm:py-10 py-5 bg-yellow-500" id="about">
-      <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 sm:mx-10 sm:flex sm:flex-col sm:items-center">
-        <div className="text-6xl font-bold xl:w-2/5 sm:flex sm:flex-col sm:items-center xl:pb-20 sm:pb-10">
-          <div className="bg-gray-400 h-20 w-1 xl:mb-4 sm:mb-8"></div>
+      <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 mx-10 flex flex-col items-center">
+        <div className="text-5xl sm:text-6xl font-bold xl:w-2/5 flex flex-col items-center xl:pb-20 pb-10">
+          <div className="bg-gray-400 h-20 w-1 xl:mb-4 mb-8"></div>
           ABOUT US
         </div>
-        <div className="xl:bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl">
-          <p className="xl:m-20 sm:mx-5 sm:my-5 text-center sm:text-lg xl:text-base">
+        <div className="bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl">
+          <p className="xl:m-20 mx-5 my-5 text-center text-lg xl:text-base">
             Entrepreneurship Cell started its functioning in October 2014 to
             inculcate the passion and spirit among students to pursue
             entrepreneurship and bring together the hustling minds having
