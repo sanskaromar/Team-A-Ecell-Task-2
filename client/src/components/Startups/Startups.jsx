@@ -3,85 +3,124 @@ import logo2 from "./loco.jpg";
 import logo3 from "./drivezy.png";
 import logo4 from "./EveryCrave.jpg";
 import logo5 from "./kratikal.png";
-import logo6 from "./symb.jpg";
-import logo7 from "./trelos.jpeg";
+import logo6 from "./SymbTechnologies.png";
+import logo7 from "./Trelos.png";
 import logo8 from "./unacademy.png";
-import logo9 from "./pvr.jpeg";
+import logo9 from "./PVR.jpg";
 import { motion } from "framer-motion";
 const Startups = () => {
   return (
-    <div className=" xl:py-20 sm:py-10" id="startups">
-      <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 sm:mx-10 sm:flex sm:flex-col sm:items-center">
-        <div className="text-6xl font-bold xl:w-2/5 sm:flex sm:flex-col sm:items-center xl:pb-20 sm:pb-10">
-          <div className="bg-gray-400 h-20 w-1 xl:mb-4 sm:mb-8"></div>
+    <div className="mt-12 relative" id="startups">
+      <div className="flex flex-col items-center">
+        <div className="text-4xl text-center text-white">
           STARTUPS BY MNNITians
         </div>
-
-        <div className="xl: m-6 p-4 xl:bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl display-flex flex-wrap display-inline space-x-6">
+        <div className="flex space-x-6 justify-center w-full items-center mt-10">
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
+            className="bg-white rounded-2xl"
           >
-            <img className="w-40 h-40  " src={logo1} alt="baabtra.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo1}
+              alt="baabtra.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
           >
-            <img className="w-40 h-30  " src={logo2} alt="loco.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo2}
+              alt="loco.com"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ x: [-20, 20], opacity: [0, 1] }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            whileTap={{ scale: 1.5 }}
+            className="bg-white rounded-2xl"
+          >
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo3}
+              alt="drivezy.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
           >
-            <img className="w-40 h-40  " src={logo3} alt="drivezy.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo4}
+              alt="EveryCrave.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
           >
-            <img className="w-40 h-30  " src={logo4} alt="EveryCrave.com" />
-          </motion.div>
-          <motion.div
-            whileInView={{ x: [-20, 20], opacity: [0, 1] }}
-            transition={{ duration: 1, ease: "easeOut" }}
-            whileTap={{ scale: 1.5 }}
-          >
-            <img className="w-40 h-30  " src={logo5} alt="kratikal.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo5}
+              alt="kratikal.com"
+            />
           </motion.div>
         </div>
-        <div className="m-4 p-4 xl:bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl display-flex flex-wrap display-inline space-x-6 ">
+        <div className="flex space-x-6 justify-center w-full items-center mt-6">
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
           >
-            <img className="w-40 h-30  " src={logo6} alt="symb.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo6}
+              alt="symb.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
+            className="bg-white rounded-2xl"
           >
-            <img className="w-40 h-40  " src={logo7} alt="trelos.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo7}
+              alt="trelos.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
+            className=""
           >
-            <img className="w-40 h-30  " src={logo8} alt="unacademy.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo8}
+              alt="unacademy.com"
+            />
           </motion.div>
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}
             whileTap={{ scale: 1.5 }}
+            className="bg-white rounded-2xl"
           >
-            <img className="w-40 h-40  " src={logo9} alt="pvr.com" />
+            <img
+              className="object-contain w-40 h-40 rounded-2xl"
+              src={logo9}
+              alt="pvr.com"
+            />
           </motion.div>
         </div>
       </div>
