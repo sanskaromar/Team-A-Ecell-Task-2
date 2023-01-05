@@ -26,5 +26,5 @@ Link- https://www.figma.com/file/Ddtfax1gqJfwsAxm3hbYVc/E-Cell-MNNIT?node-id=0%3
 
 ## Our Netlify app?
 
-Link 1 - https://e-cellmnnit.netlify.app/
-Link 2 - https://ecellmnnita.netlify.app/
+- Link 1 - https://e-cellmnnit.netlify.app/
+- Link 2 - https://ecellmnnita.netlify.app/
