@@ -21,16 +21,26 @@ const Appreciation = () => {
 
   return (
     <div className="bg-black pt-16 pb-0">
-      <motion.div  whileInView={{ y: [50, 0], opacity: [0, 1] }}
-          transition={{ duration: 2, ease: "easeOut" }}
-          whileTap={{ scale: 0.9 }}  className="text-center">
+      <motion.div
+        whileInView={{ y: [50, 0], opacity: [0, 1] }}
+        transition={{ duration: 2, ease: "easeOut" }}
+        whileTap={{ scale: 0.9 }}
+        className="text-center"
+      >
         <h3 className="text-white pb-4 font-bold text-3xl">
           LINES OF APPRECIATION
         </h3>
       </motion.div>
-      <motion.div  whileInView={{ y: [50, 0], opacity: [0, 1], transform:"rotateX(360deg)" }}
-          transition={{ duration: 2, ease: "easeOut" }}
-            id="carousel_container" className="h-96 flex mx-20">
+      <motion.div
+        whileInView={{
+          y: [50, 0],
+          opacity: [0, 1],
+          transform: "rotateX(360deg)",
+        }}
+        transition={{ duration: 2, ease: "easeOut" }}
+        id="carousel_container"
+        className="h-96 flex mx-20"
+      >
         <div className="flex items-center justify-center mr-4">
           <KeyboardArrowLeftIcon
             className="opacity-100 hover:opacity-50 cursor-pointer"
