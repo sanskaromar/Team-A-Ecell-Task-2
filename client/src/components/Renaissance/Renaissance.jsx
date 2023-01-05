@@ -7,9 +7,9 @@ const Renaissance = () => {
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
           transition={{ duration: 2, ease: "easeOut" }}
           whileTap={{ scale: 0.9 }}
-          className="text-4xl text-white flex flex-col items-center mb-4"
+          className="text-4xl text-stone-300 flex flex-col items-center mb-4"
         >
-          <div className="bg-gray-400 mt-4 h-20 w-1 mb-6"></div>
+          <div className="bg-stone-400 mt-4 h-20 w-1 mb-6"></div>
           RENAISSANCE
         </motion.div>
         <div className="">
@@ -18,7 +18,7 @@ const Renaissance = () => {
             transition={{ duration: 2, ease: "easeOut" }}
             whileTap={{ scale: 0.9 }}
           >
-            <p className="text-white text-center sm:mx-10 lg:mx-40">
+            <p className="text-stone-200 text-center sm:mx-10 lg:mx-40">
               A conference for investors, entrepreneurs, budding entrepreneurs,
               venture capitalists. Networking and pitching ideas lie at the core
               of renaissance, renaissance means new beginnings, which is what

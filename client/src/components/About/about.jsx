@@ -3,17 +3,22 @@ const About = () => {
   return (
     <div className="xl:py-20 sm:py-10" id="about">
       <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 sm:mx-10 sm:flex sm:flex-col sm:items-center">
-        <motion.div whileInView={{ y: [50, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, ease: "easeOut" }}
-            whileTap={{ scale: 0.9 }} className="text-6xl font-bold xl:w-2/5 sm:flex sm:flex-col sm:items-center xl:pb-20 sm:pb-10">
-          <div  className="bg-gray-400 h-20 w-1 xl:mb-4 sm:mb-8"></div>
+        <motion.div
+          whileInView={{ y: [50, 0], opacity: [0, 1] }}
+          transition={{ duration: 2, ease: "easeOut" }}
+          whileTap={{ scale: 0.9 }}
+          className="text-6xl xl:w-2/5 sm:flex sm:flex-col sm:items-center xl:pb-20 sm:pb-10 text-stone-300"
+        >
+          <div className="bg-stone-400 h-20 w-1 xl:mb-4 sm:mb-8"></div>
           ABOUT US
         </motion.div>
-        <motion.div whileInView={{ z: [-50, 20], opacity: [0, 1] }}
-            transition={{ duration: 2, ease: "easeOut" }}
-            whileTap={{ scale: 0.9 }}
-             className="xl:bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl">
-          <p className="xl:m-20 sm:mx-5 sm:my-5 text-center sm:text-lg xl:text-base">
+        <motion.div
+          whileInView={{ z: [-50, 20], opacity: [0, 1] }}
+          transition={{ duration: 2, ease: "easeOut" }}
+          whileTap={{ scale: 0.9 }}
+          className="xl:bg-gray-300 xl:mx-10 xl:w-3/5 rounded-3xl"
+        >
+          <p className="xl:m-20 xl:text-black sm:text-stone-200 sm:mx-5 sm:my-5 text-center sm:text-lg xl:text-base">
             Entrepreneurship Cell started its functioning in October 2014 to
             inculcate the passion and spirit among students to pursue
             entrepreneurship and bring together the hustling minds having

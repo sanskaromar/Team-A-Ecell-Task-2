@@ -17,11 +17,12 @@ function Header() {
           <img src={logo} alt="ecell logo" />
         </motion.div>
         <motion.div
-          className="display-flex"
+          className="flex flex-col justify-center items-center"
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
           transition={{ duration: 2, ease: "easeOut" }}
         >
-          <h1>THE ENTREPRENEURSHIP CELL MNNIT ALLAHABAD</h1>
+          <h1>THE ENTREPRENEURSHIP CELL</h1>
+          <h1>MNNIT ALLAHABAD</h1>
         </motion.div>
       </div>
     </div>

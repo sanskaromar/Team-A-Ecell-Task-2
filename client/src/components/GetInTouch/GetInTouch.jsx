@@ -21,7 +21,7 @@ const GetInTouch = () => {
             "Success is walking from failure to failure with no loss of
             enthusiasm."
           </div>
-          <div className="text-stone-400 text-xl text-right md:mr-52 sm:mr-32 mt-2">
+          <div className="text-stone-300 text-xl text-right md:mr-52 sm:mr-32 mt-2">
             - Winston Churchill
           </div>
         </motion.div>
@@ -100,7 +100,7 @@ const GetInTouch = () => {
                 className="lg:w-60 lg:h-60 sm:w-40 sm:h-40 rounded-full mr-6"
               >
                 <img
-                  className="object-fill rounded-full border-4 border-solid border-stone-300"
+                  className="object-fill rounded-full border-4 border-solid border-stone-400"
                   src={TeamImg}
                   alt=""
                 />
