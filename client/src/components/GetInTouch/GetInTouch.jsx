@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const GetInTouch = () => {
   return (
     <div id="contact">
-      <div className="">
+      <div className="bg-gray-900">
         <motion.div
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
           transition={{ duration: 2, ease: "easeOut" }}

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const Renaissance = () => {
   return (
-    <div className="" id="renaissance">
+    <div className="bg-black" id="renaissance">
       <div className="flex flex-col items-center justify-center px-20 py-10">
         <motion.div
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
