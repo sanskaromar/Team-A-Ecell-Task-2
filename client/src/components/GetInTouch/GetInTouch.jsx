@@ -15,7 +15,7 @@ const GetInTouch = () => {
         <motion.div
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
           transition={{ duration: 2, ease: "easeOut" }}
-          className="bg-black p-20 text-center"
+          className="text-center"
         >
           <div className="text-3xl text-white">
             "Success is walking from failure to failure with no loss of
@@ -26,7 +26,7 @@ const GetInTouch = () => {
           </div>
         </motion.div>
 
-        <div className="bg-black p-10 pr-44">
+        <div className="p-10 pr-44">
           <div className="flex justify-between items-center">
             <div>
               {" "}
@@ -107,7 +107,7 @@ const GetInTouch = () => {
                 />
               </motion.div>
 
-              <div className="mt-2">
+              <div className="mt-2 relative">
                 <h3 className="text-4xl font-bold pl-2 mb-3 pb-1 pt-0.5 w-80 text-black bg-stone-300">
                   GET IN TOUCH
                 </h3>
@@ -139,7 +139,7 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center py-20 pb-8 text-stone-300 h-10 bg-black">
+        <div className="flex justify-center items-center py-12 text-stone-300 h-10 relative">
           Copyright &copy; E-Cell 2022. All rights reserved
         </div>
       </div>

@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Renaissance from "./components/Renaissance/Renaissance";
 import Startups from "./components/Startups/Startups";
 import Appreciation from "./components/Appreciation/Appreciation";
+import Background from "./assets/Background2.jpg";
 
 function App() {
   return (
@@ -15,10 +16,17 @@ function App() {
       <ScrollToTop />
       <Header />
       <About />
-      <Startups />
-      <Renaissance />
       <Appreciation />
-      <GetInTouch />
+      <Startups />
+      <div className="">
+        <img
+          className="absolute brightness-50 opacity-80"
+          src={Background}
+          alt="Background"
+        />
+        <Renaissance />
+        <GetInTouch />
+      </div>
     </div>
   );
 }

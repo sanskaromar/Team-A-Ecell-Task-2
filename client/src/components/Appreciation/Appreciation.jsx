@@ -20,7 +20,7 @@ const Appreciation = () => {
   };
 
   return (
-    <div className="bg-black pt-16 pb-0">
+    <div className="pt- pb-0 bg-black">
       <motion.div
         whileInView={{ y: [50, 0], opacity: [0, 1] }}
         transition={{ duration: 2, ease: "easeOut" }}
