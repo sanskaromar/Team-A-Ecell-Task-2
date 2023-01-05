@@ -26,6 +26,13 @@
         justify-content: center;
         // -webkit-animation: text-flicker-in-glow 5s linear 1s both;
 	    // animation: text-flicker-in-glow 5s linear 1s both;
+        @media screen and (max-width : 550px) {
+            width: 30%;
+        }
+        @media screen and (max-width : 350px) {
+            width: 40%;
+        }
+
     }
 
 
