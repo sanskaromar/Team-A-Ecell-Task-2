@@ -1,5 +1,10 @@
 body {
-  position: relative;
+  /* position: relative; */
+  background-image: url("./assets/Background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #scroll {
@@ -11,5 +16,5 @@ body {
 }
 
 #carousel_container {
-  height: 300px;
+  height: 318px;
 }

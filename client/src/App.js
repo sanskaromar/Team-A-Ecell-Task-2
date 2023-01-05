@@ -7,7 +7,6 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Renaissance from "./components/Renaissance/Renaissance";
 import Startups from "./components/Startups/Startups";
 import Appreciation from "./components/Appreciation/Appreciation";
-import Background from "./assets/Background2.jpg";
 
 function App() {
   return (
@@ -17,13 +16,13 @@ function App() {
       <Header />
       <About />
       <Appreciation />
-      <Startups />
       <div className="flex flex-col justify-end">
-        <img
+        {/* <img
           className="absolute brightness-50 opacity-80"
           src={Background}
           alt="Background"
-        />
+        /> */}
+        <Startups />
         <Renaissance />
         <GetInTouch />
       </div>
