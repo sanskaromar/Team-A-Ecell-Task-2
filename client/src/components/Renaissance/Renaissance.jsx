@@ -1,5 +1,3 @@
-import logo from "./Renaissance.png";
-import Background from "../../assets/Background2.jpg";
 import { motion } from "framer-motion";
 const Renaissance = () => {
   return (
@@ -11,7 +9,7 @@ const Renaissance = () => {
           whileTap={{ scale: 0.9 }}
           className="text-4xl text-white flex flex-col items-center mb-4"
         >
-          <div className="bg-gray-400 mt-6 h-20 w-1 mb-4"></div>
+          <div className="bg-gray-400 mt-4 h-20 w-1 mb-6"></div>
           RENAISSANCE
         </motion.div>
         <div className="">

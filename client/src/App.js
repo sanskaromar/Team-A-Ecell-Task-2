@@ -18,7 +18,7 @@ function App() {
       <About />
       <Appreciation />
       <Startups />
-      <div className="">
+      <div className="flex flex-col justify-end">
         <img
           className="absolute brightness-50 opacity-80"
           src={Background}
