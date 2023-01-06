@@ -30,7 +30,7 @@ const ScrollToTop = () => {
     <div className="flex justify-end">
       {isVisible && (
         <div
-          className="bg-stone-300 w-12 h-12 flex justify-center items-center rounded-full position: fixed z-2 mr-8 hover:cursor-pointer"
+          className="bg-stone-300 w-12 h-12 flex justify-center items-center rounded-full fixed z-2 mr-6 hover:cursor-pointer"
           onClick={ScrollToBtn}
           id="scroll"
         >

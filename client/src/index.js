@@ -9,7 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div className="cursor"></div>
+    <div className="flex flex-col justify-end sticky w-32 bottom-0 left-0">
+      <div className="cursor"></div>
+      <div className="back"></div>
+    </div>
   </React.StrictMode>
 );
 
