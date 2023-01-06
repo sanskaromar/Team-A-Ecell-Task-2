@@ -1,0 +1,19 @@
+.slick-dots {
+  li {
+    button {
+      width: 70px;
+      height: 70px;
+      &::before {
+        color: white;
+      }
+    }
+    &.slick-active,
+    &:hover {
+      button {
+        &:before {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -16,16 +16,9 @@ function App() {
       <Header />
       <About />
       <Appreciation />
-      <div className="flex flex-col justify-end">
-        {/* <img
-          className="absolute brightness-50 opacity-80"
-          src={Background}
-          alt="Background"
-        /> */}
-        <Startups />
-        <Renaissance />
-        <GetInTouch />
-      </div>
+      <Startups />
+      <Renaissance />
+      <GetInTouch />
     </div>
   );
 }

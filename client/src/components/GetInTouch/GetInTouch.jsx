@@ -138,7 +138,7 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center pt-20 pb-8 text-stone-300 h-10">
+        <div className="flex justify-center items-center pt-12 pb-8 text-stone-300 h-10">
           Copyright &copy; E-Cell 2022. All rights reserved
         </div>
       </div>

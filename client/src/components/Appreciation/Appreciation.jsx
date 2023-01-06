@@ -1,113 +1,140 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Gary from "../../assets/Appreciation/Gary.png";
 import Rajeev from "../../assets/Appreciation/Rajeev.jpg";
 import Chetanya from "../../assets/Appreciation/chetanya.jpg";
 import Abhilekh from "../../assets/Appreciation/Abhilekh.jpg";
 import Mansi from "../../assets/Appreciation/Mansi.jpg";
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
-import { motion } from "framer-motion";
+import "./Appreciation.scss";
+
 const Appreciation = () => {
-  const slideLeft = () => {
-    var slider = document.getElementById("slider");
-
-    slider.scrollLeft = slider.scrollLeft - 1000;
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
-
-  const slideRight = () => {
-    var slider = document.getElementById("slider");
-
-    slider.scrollLeft = slider.scrollLeft + 1000;
-  };
-
   return (
-    <div className="pt- pb-0 bg-black">
-      <motion.div
-        whileInView={{ y: [50, 0], opacity: [0, 1] }}
-        transition={{ duration: 2, ease: "easeOut" }}
-        whileTap={{ scale: 0.9 }}
-        className="text-center"
-      >
-        <h3 className="text-white pb-4 font-bold text-3xl">
-          LINES OF APPRECIATION
-        </h3>
-      </motion.div>
-      <motion.div
-        whileInView={{
-          y: [50, 0],
-          opacity: [0, 1],
-          transform: "rotateX(360deg)",
-        }}
-        transition={{ duration: 2, ease: "easeOut" }}
-        id="carousel_container"
-        className="h-96 flex mx-20"
-      >
-        <div className="flex items-center justify-center mr-4">
-          <KeyboardArrowLeftIcon
-            className="opacity-100 hover:opacity-50 cursor-pointer"
-            onClick={slideLeft}
-            sx={{ color: "white" }}
-            fontSize="large"
-          />
-        </div>
-
-        <div
-          id="slider"
-          className="flex w-full h-full py-10 px-4 overflow-x-scroll scroll scroll-smooth whitespace-nowrap scrollbar-hide"
-        >
-          <div className="bg-stone-300 px-4 py-12 flex flex-col items-center rounded-3xl mr-8 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 w-1/3">
-            <div className="mb-4 font-bold text-lg">
-              Efficient Collaborating
-            </div>
+    <div>
+      <div className="flex justify-center">
+        <div className="bg-stone-400 h-20 w-1 mb-4"></div>
+      </div>
+      <h3 className="text-stone-300 pt-4 pb-2 text-4xl text-center">
+        LINES OF APPRECIATION
+      </h3>
+      {/* <div> */}
+      <Slider {...settings} className="mx-60 mb-10 py-6">
+        <div className="height">
+          <div
+            id="height"
+            className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
+          >
             <div>
-              <p className="text-center">
-                I duly hope the legacy continues eternally and provide ample
-                opportunities to cater and optimistic demeanor towards being an
-                entrepreneur, surpassing the bars set by the previous
-                endeavours. I heartily welcome everyone to be a part of 6.0
-                E-summit Renaissance 2020 and make it a grand success with your
-                support and enthusiasm.
-              </p>
+              <div className="mb-4 font-bold text-lg text-center">
+                Efficient Collaborating
+              </div>
+              <div>
+                <p className="text-center px-10">
+                  I duly hope the legacy continues eternally and provide ample
+                  opportunities to cater and optimistic demeanor towards being
+                  an entrepreneur, surpassing the bars set by the previous
+                  endeavours. I heartily welcome everyone to be a part of 6.0
+                  E-summit Renaissance 2020 and make it a grand success with
+                  your support and enthusiasm.
+                </p>
+              </div>
             </div>
-            <div className="w-20 h-20 rounded-full mb-2">
-              <img className="object-fit rounded-full" src={Rajeev} alt="" />
-            </div>
-            <div className="pb-1 mt-8">Rajeev Tripathi</div>
-            <div>Director, MNNIT Allahabad</div>
-          </div>
-
-          <div className="bg-stone-300 px-4 py-12 flex flex-col items-center rounded-3xl mr-8 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 w-1/3">
-            <div className="mb-4 font-bold text-lg">Intuitive Design</div>
-            <div>
-              <p className="text-center">
-                I would like to give my personal congrats to the entire team of
-                NIT Allahabad for putting up a wonderful event. The attendees
-                were more than ecstatic than what I have ever seen anywhere else
-                and it is this spirit that puts up a favourable stage for people
-                like us to speak/perform.
-              </p>
-            </div>
+            {/* mt-6 */}
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 rounded-full mb-2">
-                <img
-                  className="object-fill rounded-full"
-                  src={Chetanya}
-                  alt=""
-                />
+                <img className="object-fit rounded-full" src={Rajeev} alt="" />
               </div>
-              <div className="pb-1 mt-5">Chetanya Golecha</div>
-              <div>Co-Founder, Water Float</div>
+              <div className="pb-1 mt-8">Rajeev Tripathi</div>
+              <div>Director, MNNIT Allahabad</div>
             </div>
           </div>
-          <div className="bg-stone-300 px-4 py-12 flex flex-col items-center rounded-3xl mr-8 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 w-1/3">
-            <div className="mb-4 font-bold text-lg">Mindblowing Service</div>
+        </div>
+        <div className="height">
+          <div
+            id="height"
+            className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
+          >
             <div>
-              <p className="text-center">
-                I would like to give my personal congrats to the entire team of
-                NIT Allahabad for putting up a wonderful event. The attendees
-                were more than ecstatic than what I have ever seen anywhere else
-                and it is this spirit that puts up a favourable stage for people
-                like us to speak/perform.
-              </p>
+              <div className="mb-4 font-bold text-lg text-center">
+                Intuitive Design
+              </div>
+              <div>
+                <p className="text-center px-10">
+                  I would like to give my personal congrats to the entire team
+                  of NIT Allahabad for putting up a wonderful event. The
+                  attendees were more than ecstatic than what I have ever seen
+                  anywhere else and it is this spirit that puts up a favourable
+                  stage for people like us to speak/perform.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="flex flex-col items-center">
+                <div className="w-20 h-20 rounded-full mb-2">
+                  <img
+                    className="object-fill rounded-full"
+                    src={Chetanya}
+                    alt=""
+                  />
+                </div>
+                <div className="pb-1 mt-5">Chetanya Golecha</div>
+                <div>Co-Founder, Water Float</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="height">
+          <div
+            id="height"
+            className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
+          >
+            <div>
+              <div className="mb-4 font-bold text-lg text-center">
+                Mindblowing Service
+              </div>
+              <div>
+                <p className="text-center px-10">
+                  I would like to give my personal congrats to the entire team
+                  of NIT Allahabad for putting up a wonderful event. The
+                  attendees were more than ecstatic than what I have ever seen
+                  anywhere else and it is this spirit that puts up a favourable
+                  stage for people like us to speak/perform.
+                </p>
+              </div>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 rounded-full mb-2">
@@ -117,14 +144,23 @@ const Appreciation = () => {
               <div>Director, Apptology FZCO</div>
             </div>
           </div>
-          <div className="bg-stone-300 px-4 py-12 flex flex-col items-center rounded-3xl mr-8 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 w-1/3">
-            <div className="mb-4 font-bold text-lg">Great Effort</div>
+        </div>
+        <div className="height">
+          <div
+            id="height"
+            className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
+          >
             <div>
-              <p className="text-center">
-                It was a great effort by Team Renaissance. Greatly appreciated
-                coming back to college. Your hard work and efforts has lead to
-                such successful event.
-              </p>
+              <div className="mb-4 font-bold text-lg text-center">
+                Great Effort
+              </div>
+              <div>
+                <p className="text-center px-10">
+                  It was a great effort by Team Renaissance. Greatly appreciated
+                  coming back to college. Your hard work and efforts has lead to
+                  such successful event.
+                </p>
+              </div>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 rounded-full mb-2">
@@ -138,14 +174,24 @@ const Appreciation = () => {
               <div>CTO, Cube26</div>
             </div>
           </div>
-          <div className="bg-stone-300 px-4 py-12 flex flex-col items-center rounded-3xl hover:cursor-pointer hover:scale-105 ease-in-out duration-300 w-1/3">
-            <div className="mb-4 font-bold text-lg">Thrilling Experience</div>
+        </div>
+        <div className="height">
+          <div
+            id="height"
+            className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
+          >
             <div>
-              <p className="text-center">
-                I was thrilled to see such an amazing audience. The events were
-                extraordinary and it surely made an impact to many aspiring
-                entrepreneurs. A platform for the genesis of great ideas.
-              </p>
+              <div className="mb-4 font-bold text-lg text-center">
+                Thrilling Experience
+              </div>
+              <div>
+                <p className="text-center px-10">
+                  I was thrilled to see such an amazing audience. The events
+                  were extraordinary and it surely made an impact to many
+                  aspiring entrepreneurs. A platform for the genesis of great
+                  ideas.
+                </p>
+              </div>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 rounded-full mb-2">
@@ -156,16 +202,8 @@ const Appreciation = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex items-center justify-center ml-4">
-          <KeyboardArrowRightIcon
-            className="opacity-100 hover:opacity-50 cursor-pointer"
-            onClick={slideRight}
-            sx={{ color: "white" }}
-            fontSize="large"
-          />
-        </div>
-      </motion.div>
+      </Slider>
+      {/* </div> */}
     </div>
   );
 };

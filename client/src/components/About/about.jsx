@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="xl:py-20 sm:py-10" id="about">
+    <div className="xl:py-20 xl:pb-16 sm:py-10" id="about">
       <div className="xl:flex xl:flex-row xl:mx-40 md:mx-20 sm:mx-10 sm:flex sm:flex-col sm:items-center">
         <motion.div
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
