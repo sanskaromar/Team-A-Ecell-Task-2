@@ -14,12 +14,6 @@ Building the E-Cell website
 - REACT
 - Javascript
 
-## How to run this file locally on your system?
-
-- run "npm config set legacy-peer-deps true" in the project folder terminal.
-- run "npm install" in the project folder terminal to install all dependencies.
-- run "npm-start" to start the react app.
-
 ## Our Figma design file?
 
 Link- https://www.figma.com/file/Ddtfax1gqJfwsAxm3hbYVc/E-Cell-MNNIT?node-id=0%3A1&t=45ZiSRfKYTQZNLsT-1
