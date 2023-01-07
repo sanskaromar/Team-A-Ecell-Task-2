@@ -20,7 +20,7 @@ const Appreciation = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -29,7 +29,7 @@ const Appreciation = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -44,16 +44,15 @@ const Appreciation = () => {
     ],
   };
   return (
-    <div>
-      <div className="flex justify-center">
-        <div className="bg-stone-400 h-20 w-1 mb-4"></div>
-      </div>
-      <h3 className="text-stone-300 pt-4 pb-2 text-4xl text-center">
+    <div className="">
+      <h3 className="text-stone-300 pt-4 pb-1 text-4xl text-center">
         LINES OF APPRECIATION
       </h3>
-      {/* <div> */}
-      <Slider {...settings} className="mx-60 mb-10 py-6">
-        <div className="height">
+      <Slider
+        {...settings}
+        className="xl:mx-60 lg:mx-40 md:mx-32 sm:mx-20 mb-10 py-6 px-4 my-2"
+      >
+        <div className="my-4">
           <div
             id="height"
             className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
@@ -63,17 +62,14 @@ const Appreciation = () => {
                 Efficient Collaborating
               </div>
               <div>
-                <p className="text-center px-10">
+                <p className="text-center px-8">
                   I duly hope the legacy continues eternally and provide ample
                   opportunities to cater and optimistic demeanor towards being
                   an entrepreneur, surpassing the bars set by the previous
-                  endeavours. I heartily welcome everyone to be a part of 6.0
-                  E-summit Renaissance 2020 and make it a grand success with
-                  your support and enthusiasm.
+                  endeavours.
                 </p>
               </div>
             </div>
-            {/* mt-6 */}
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 rounded-full mb-2">
                 <img className="object-fit rounded-full" src={Rajeev} alt="" />
@@ -83,7 +79,7 @@ const Appreciation = () => {
             </div>
           </div>
         </div>
-        <div className="height">
+        <div className="my-4">
           <div
             id="height"
             className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
@@ -93,7 +89,7 @@ const Appreciation = () => {
                 Intuitive Design
               </div>
               <div>
-                <p className="text-center px-10">
+                <p className="text-center px-8">
                   I would like to give my personal congrats to the entire team
                   of NIT Allahabad for putting up a wonderful event. The
                   attendees were more than ecstatic than what I have ever seen
@@ -117,7 +113,7 @@ const Appreciation = () => {
             </div>
           </div>
         </div>
-        <div className="height">
+        <div className="my-4">
           <div
             id="height"
             className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
@@ -127,7 +123,7 @@ const Appreciation = () => {
                 Mindblowing Service
               </div>
               <div>
-                <p className="text-center px-10">
+                <p className="text-center px-8">
                   I would like to give my personal congrats to the entire team
                   of NIT Allahabad for putting up a wonderful event. The
                   attendees were more than ecstatic than what I have ever seen
@@ -145,7 +141,7 @@ const Appreciation = () => {
             </div>
           </div>
         </div>
-        <div className="height">
+        <div className="my-4">
           <div
             id="height"
             className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
@@ -155,7 +151,7 @@ const Appreciation = () => {
                 Great Effort
               </div>
               <div>
-                <p className="text-center px-10">
+                <p className="text-center px-8">
                   It was a great effort by Team Renaissance. Greatly appreciated
                   coming back to college. Your hard work and efforts has lead to
                   such successful event.
@@ -175,7 +171,7 @@ const Appreciation = () => {
             </div>
           </div>
         </div>
-        <div className="height">
+        <div className="my-4">
           <div
             id="height"
             className="bg-stone-300 px-4 py-12 hover:cursor-pointer hover:scale-105 ease-in-out duration-300 h-full flex flex-col justify-between hover:shadow-2xl hover:shadow-black"
@@ -185,7 +181,7 @@ const Appreciation = () => {
                 Thrilling Experience
               </div>
               <div>
-                <p className="text-center px-10">
+                <p className="text-center px-8">
                   I was thrilled to see such an amazing audience. The events
                   were extraordinary and it surely made an impact to many
                   aspiring entrepreneurs. A platform for the genesis of great
@@ -203,7 +199,6 @@ const Appreciation = () => {
           </div>
         </div>
       </Slider>
-      {/* </div> */}
     </div>
   );
 };

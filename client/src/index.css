@@ -24,3 +24,11 @@
   scroll-behavior: smooth;
   font-family: var(--font-family);
 }
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

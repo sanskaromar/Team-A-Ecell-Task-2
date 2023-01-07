@@ -10,7 +10,7 @@ import logo9 from "./PVR.jpg";
 import { motion } from "framer-motion";
 const Startups = () => {
   return (
-    <div className="mt-16 relative" id="startups">
+    <div className="mt-20" id="startups">
       <div className="flex flex-col items-center">
         <div id="stick" className="flex justify-center">
           <div className="bg-stone-400 h-20 w-1 mb-8"></div>
@@ -18,7 +18,7 @@ const Startups = () => {
         <div className="text-4xl text-center text-stone-300">
           STARTUPS BY MNNITians
         </div>
-        <div className="flex space-x-6 justify-center w-full items-center mt-10">
+        <div className="flex space-x-6 justify-center w-full items-center mt-10 z-0">
           <motion.div
             whileInView={{ x: [-20, 20], opacity: [0, 1] }}
             transition={{ duration: 1, ease: "easeOut" }}

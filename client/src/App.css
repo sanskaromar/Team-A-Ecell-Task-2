@@ -1,14 +1,9 @@
 body {
-  /* position: relative; */
   background-image: url("./assets/Background2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-}
-
-#scroll {
-  margin-top: 700px;
 }
 
 .content {
@@ -21,10 +16,6 @@ body {
 
 #height {
   height: 500px;
-}
-
-.height {
-  margin: 20px;
 }
 
 #stick {

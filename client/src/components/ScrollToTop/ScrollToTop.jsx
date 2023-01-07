@@ -27,12 +27,11 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="flex justify-end">
+    <div>
       {isVisible && (
         <div
-          className="bg-stone-300 w-12 h-12 flex justify-center items-center rounded-full fixed z-2 mr-6 hover:cursor-pointer"
+          className="bg-stone-300 w-12 h-12 flex justify-center items-center rounded-full fixed bottom-0 right-0 mr-6 mb-6 hover:cursor-pointer z-2"
           onClick={ScrollToBtn}
-          id="scroll"
         >
           <div className="">
             <IconButton>
