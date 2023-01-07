@@ -10,7 +10,7 @@ import logo9 from "./PVR.jpg";
 import { motion } from "framer-motion";
 const Startups = () => {
   return (
-    <div className="mt-20" id="startups">
+    <div className="mt-12" id="startups">
       <div className="flex flex-col items-center">
         <div id="stick" className="flex justify-center">
           <div className="bg-stone-400 h-20 w-1 mb-8"></div>

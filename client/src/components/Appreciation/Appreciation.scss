@@ -1,5 +1,5 @@
 .slick-dots {
-  width: 1023.8px;
+  position: static;
   li {
     button {
       width: 70px;
@@ -17,4 +17,9 @@
       }
     }
   }
+}
+
+.slick-prev,
+.slick-next {
+  padding-bottom: 60px;
 }

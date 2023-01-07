@@ -10,7 +10,7 @@ import Appreciation from "./components/Appreciation/Appreciation";
 
 function App() {
   return (
-    <div className="content">
+    <div className="">
       <Navbar />
       <ScrollToTop />
       <Header />
