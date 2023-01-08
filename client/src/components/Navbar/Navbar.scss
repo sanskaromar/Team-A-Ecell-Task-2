@@ -6,8 +6,8 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  position: fixed;
   background-color: rgb(55 55 55 / 65%);
+  position: fixed;
   z-index: 2;
 }
 
@@ -22,8 +22,8 @@
     cursor: pointer;
 
     @media screen and (min-width: 2000px) {
-      width: 70%;
-      height: 70%;
+      width: 180px;
+      height: 40px;
     }
 
     @media screen and (min-width: 900px) and (max-width: 1020px) {
@@ -44,12 +44,15 @@
   li {
     margin: 0 1rem;
     cursor: pointer;
+
     flex-direction: column;
+
     div {
       width: 5px;
       height: 5px;
       background: transparent;
       border-radius: 50%;
+
       padding-bottom: 5px;
     }
 
@@ -111,8 +114,10 @@
 
     padding: 1rem;
 
-    width: 30%;
-    height: 60vh;
+    width: 40%;
+    height: 61vh;
+    // width: 80%;
+    // height: 100vh;
 
     display: flex;
     justify-content: flex-end;
@@ -127,7 +132,7 @@
       width: 35px;
       height: 35px;
       color: var(--white-color);
-      margin: 0.5rem 3rem;
+      margin: 0.5rem 1rem;
     }
 
     ul {
@@ -144,6 +149,7 @@
 
       li {
         margin: 1rem;
+        cursor: pointer;
 
         a {
           color: var(--white-color);

@@ -11,18 +11,19 @@ function Header() {
         <motion.div
           className="display-flex"
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 3, ease: "easeOut" }}
+          whileHover={{ scale: 0.9 }}
         >
           <img src={logo} alt="ecell logo" />
         </motion.div>
         <motion.div
           className="flex flex-col justify-center items-center"
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
-          transition={{ duration: 2, ease: "easeOut" }}
+          transition={{ duration: 3, ease: "easeOut" }}
+          whileTap={{ scale: 0.9 }}
         >
-          <h1>THE ENTREPRENEURSHIP CELL</h1>
-          <h1>MNNIT ALLAHABAD</h1>
+          <h1 className="inner">THE ENTREPRENEURSHIP CELL</h1>
+          <h1 className="inner">MNNIT ALLAHABAD</h1>
         </motion.div>
       </div>
     </div>

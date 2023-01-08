@@ -1,6 +1,7 @@
 import KeyboardDoubleArrowUpRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowUpRounded";
 import { IconButton } from "@mui/material";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,12 +35,23 @@ const ScrollToTop = () => {
           onClick={ScrollToBtn}
         >
           <div className="">
-            <IconButton>
-              <KeyboardDoubleArrowUpRoundedIcon
-                sx={{ color: "black" }}
-                fontSize="large"
-              />
-            </IconButton>
+            <motion.div
+              className="flex flex-col justify-center items-center"
+              whileInView={{ y: [3, -3], opacity: [0, 1] }}
+              transition={{
+                duration: 1,
+                ease: "easeOut",
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+            >
+              <IconButton>
+                <KeyboardDoubleArrowUpRoundedIcon
+                  sx={{ color: "black" }}
+                  fontSize="large"
+                />
+              </IconButton>
+            </motion.div>
           </div>
         </div>
       )}

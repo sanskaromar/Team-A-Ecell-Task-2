@@ -31,72 +31,107 @@ const GetInTouch = () => {
             <div className="lg:mr-20 md:mr-10">
               <ul className="mt-1">
                 <motion.div
-                  whileInView={{ y: [5, 0], opacity: [0, 1] }}
-                  whileTap={{ scale: 1.5 }}
+                  whileInView={{ y: [100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                  {" "}
-                  <li className="mb-1">
-                    <a href="https://www.facebook.com/mnnitecell">
-                      <IconButton>
-                        <FacebookIcon
-                          sx={{ color: "white" }}
-                          fontSize="large"
-                        />
-                      </IconButton>
-                    </a>
-                  </li>
+                  <motion.div
+                    whileInView={{ y: [5, 0], opacity: [0, 1] }}
+                    whileHover={{ scale: 1.5 }}
+                  >
+                    <li className="mb-1">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.facebook.com/mnnitecell"
+                      >
+                        <IconButton>
+                          <FacebookIcon
+                            sx={{ color: "white" }}
+                            fontSize="large"
+                          />
+                        </IconButton>
+                      </a>
+                    </li>
+                  </motion.div>
                 </motion.div>
                 <motion.div
-                  whileInView={{ y: [5, 0], opacity: [0, 1] }}
-                  whileTap={{ scale: 1.5 }}
+                  whileInView={{ y: [100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 1, ease: "easeOut" }}
                 >
-                  {" "}
-                  <li className="mb-1">
-                    <a href="https://www.instagram.com/ecellmnnit/">
-                      <IconButton>
-                        <InstagramIcon
-                          sx={{ color: "white" }}
-                          fontSize="large"
-                        />
-                      </IconButton>
-                    </a>
-                  </li>{" "}
+                  <motion.div
+                    whileInView={{ y: [5, 0], opacity: [0, 1] }}
+                    whileHover={{ scale: 1.5 }}
+                  >
+                    <li className="mb-1">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.instagram.com/ecellmnnit/"
+                      >
+                        <IconButton>
+                          <InstagramIcon
+                            sx={{ color: "white" }}
+                            fontSize="large"
+                          />
+                        </IconButton>
+                      </a>
+                    </li>
+                  </motion.div>
                 </motion.div>
                 <motion.div
-                  whileInView={{ y: [5, 0], opacity: [0, 1] }}
-                  whileTap={{ scale: 1.5 }}
+                  whileInView={{ y: [100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 1.5, ease: "easeOut" }}
                 >
-                  {" "}
-                  <li className="mb-1">
-                    <a href="https://twitter.com/ecellmnnit">
-                      <IconButton>
-                        <TwitterIcon sx={{ color: "white" }} fontSize="large" />
-                      </IconButton>
-                    </a>
-                  </li>
+                  <motion.div
+                    whileInView={{ y: [5, 0], opacity: [0, 1] }}
+                    whileHover={{ scale: 1.5 }}
+                  >
+                    <li className="mb-1">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://twitter.com/ecellmnnit"
+                      >
+                        <IconButton>
+                          <TwitterIcon
+                            sx={{ color: "white" }}
+                            fontSize="large"
+                          />
+                        </IconButton>
+                      </a>
+                    </li>
+                  </motion.div>
                 </motion.div>
                 <motion.div
-                  whileInView={{ y: [5, 0], opacity: [0, 1] }}
-                  whileTap={{ scale: 1.5 }}
+                  whileInView={{ y: [100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 2, ease: "easeOut" }}
                 >
-                  {" "}
-                  <li className="mb-1">
-                    <a href="https://www.linkedin.com/company/entrepreneurship-cell-nit-allahabad/?original_referer=">
-                      <IconButton>
-                        <LinkedInIcon
-                          sx={{ color: "white" }}
-                          fontSize="large"
-                        />
-                      </IconButton>
-                    </a>
-                  </li>
+                  <motion.div
+                    whileInView={{ y: [5, 0], opacity: [0, 1] }}
+                    whileHover={{ scale: 1.5 }}
+                  >
+                    <li className="mb-1">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/company/entrepreneurship-cell-nit-allahabad/?original_referer="
+                      >
+                        <IconButton>
+                          <LinkedInIcon
+                            sx={{ color: "white" }}
+                            fontSize="large"
+                          />
+                        </IconButton>
+                      </a>
+                    </li>
+                  </motion.div>
                 </motion.div>
               </ul>
             </div>
             <div className="flex items-center">
               <motion.div
                 whileInView={{ y: [5, 0], opacity: [0, 1] }}
-                whileTap={{ scale: 1.2 }}
+                whileHover={{ scale: 1.1 }}
                 className="lg:w-60 lg:h-60 sm:w-40 sm:h-40 rounded-full mr-6"
               >
                 <img
@@ -107,9 +142,11 @@ const GetInTouch = () => {
               </motion.div>
 
               <div className="mt-2 relative">
-                <h3 className="lg:text-4xl md:text-3xl sm:text-2xl font-bold pl-2 mb-3 pb-1 pt-0.5 lg:w-80 md:w-72 sm:w-60 text-black bg-stone-300">
-                  GET IN TOUCH
-                </h3>
+                <div className="bg-stone-300 lg:w-80 md:w-72 sm:w-60 pl-2 mb-3 pb-1 pt-0.5">
+                  <h3 className="lg:text-4xl md:text-3xl sm:text-2xl font-bold text-black">
+                    GET IN TOUCH
+                  </h3>
+                </div>
                 <div className="pb-2">
                   <span className="pb-40">
                     <LocationOnIcon sx={{ color: "grey" }} fontSize="large" />

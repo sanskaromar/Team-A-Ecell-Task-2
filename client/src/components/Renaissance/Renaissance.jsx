@@ -3,15 +3,17 @@ const Renaissance = () => {
   return (
     <div className="" id="renaissance">
       <div className="flex flex-col items-center justify-center px-20 py-10">
-        <motion.div
-          whileInView={{ y: [50, 0], opacity: [0, 1] }}
-          transition={{ duration: 2, ease: "easeOut" }}
-          whileTap={{ scale: 0.9 }}
-          className="text-4xl text-stone-300 flex flex-col items-center mb-4"
-        >
-          <div className="bg-stone-400 mt-4 h-20 w-1 mb-6"></div>
-          RENAISSANCE
-        </motion.div>
+        <div className="flex flex-col items-center">
+          <div className="bg-stone-400 mt-4 h-20 w-1 mb-8"></div>
+          <motion.div
+            whileInView={{ y: [50, 0], opacity: [0, 1] }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            whileTap={{ scale: 0.9 }}
+            className="text-4xl text-stone-300 mb-4"
+          >
+            RENAISSANCE
+          </motion.div>
+        </div>
         <div className="">
           <motion.div
             whileInView={{ y: [50, 0], opacity: [0, 1] }}
