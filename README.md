@@ -11,6 +11,7 @@ Building the E-Cell website
 - Hypertext Markup Language
 - Cascading Style Sheets
 - Tailwind CSS
+- SCSS
 - REACT
 - Javascript
 
